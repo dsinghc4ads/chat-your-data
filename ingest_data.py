@@ -1,11 +1,15 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import UnstructuredFileLoader
+from langchain.document_loaders import UnstructuredFileLoader, UnstructuredHTMLLoader
 from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 import pickle
+import os
+
+# Set API key
+os.environ['OPENAI_API_KEY'] = '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'
 
 # Load Data
-loader = UnstructuredFileLoader("state_of_the_union.txt")
+loader = UnstructuredHTMLLoader("dhaka_stock_exchange.html")
 raw_documents = loader.load()
 
 # Split text
