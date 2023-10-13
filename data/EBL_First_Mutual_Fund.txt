@@ -1,0 +1,724 @@
+<html><div class="col-md-12 col-sm-12 col-xs-18" id="section-to-print">
+                                    <h2 class="BodyHead topBodyHead"> Company Name: <i>EBL First Mutual Fund</i> 
+              <!-- <img alt="Company Information" title="Print Company Information" src="assets/images/printer_print.png" style="vertical-align:top;" class="pull-right img-responsive printCompany no-print" width="24"> --> 
+              
+              <a href="javascript:%20void(0);" onclick="PrintDiv();"><img alt="Company Information" title="Print Company Information" src="assets/images/printer_print.png" style="vertical-align:top;" class="pull-right img-responsive printCompany no-print" width="24"></a> </h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white shares-table" id="company">
+                <tr class="alt">
+                  <th width="50%"><strong>Trading Code:</strong> EBL1STMF</th>
+                  <th width="50%"><strong>Scrip Code:</strong> 12169</th>
+                </tr>
+              </table>
+            </div>
+            
+            <!--<div class="ads-block">
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:728px;height:90px"
+                                     data-ad-client="ca-pub-2209070014716943"
+                                     data-ad-slot="7922174918"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>--> 
+            <br>
+            <div class="text-right"><strong>Figure in BDT</strong></div>
+            <h2 class="BodyHead topBodyHead">Market Information: <i>Feb 16, 2023</i></h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr>
+                  <th width="25%">Last Trading Price</th>
+                  <td width="25%">-</td>
+                  <th width="25%">Closing Price</th>
+                  <td width="25%">7.40</td>
+                </tr>
+                <tr class="alt">
+                  <th>Last Update</th>
+                  <td>3:10 PM</td>
+                  <th>Day's Range</th>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th rowspan="2">Change*</th>
+                  <td>-</td>
+                  <th>Day's Value (mn)  </th>
+                  <td>-</td>
+                </tr>
+                <tr class="alt">
+                  <td>-100.00%</td>
+                  <th>52 Weeks' Moving Range</th>
+                  <td>7.00 - 8.00</td>
+                </tr>
+                <tr>
+                  <th>Opening Price</th>
+                  <td>-</td>
+                  <th>Day's Volume (Nos.)</th>
+                  <td>-</td>
+                </tr>
+                <tr class="alt">
+                  <th>Adjusted Opening Price</th>
+                  <td>7.40</td>
+                  <th>Day's Trade (Nos.)</th>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th>Yesterday's Closing Price</th>
+                  <td>7.40</td>
+                  <th>Market Capitalization (mn)</th>
+                  <td>1,071.181</td>
+                </tr>
+              </table>
+              <span class="footnote"> *Based on Yesterday's Closing Price and Last Trading Price.
+                            </span> </div>
+            <h2 class="BodyHead topBodyHead">Basic Information</h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr>
+                  <th width="25%">Authorized Capital (mn)</th>
+                  <td width="25%">-</td>
+                  <th width="25%">Debut Trading Date  </th>
+                  <td width="25%"></td>
+                </tr>
+                <tr class="alt">
+                  <th>Paid-up Capital (mn)</th>
+                  <td>1,447.54</td>
+                  <th>Type of Instrument  </th>
+                  <td>Corporate Bond</td>
+                </tr>
+                <tr>
+                  <th>Face/par Value</th>
+                  <td>10.0</td>
+                  <th>Market Lot</th>
+                  <td>1</td>
+                </tr>
+                <tr class="alt">
+                  <th>Total No. of Outstanding Securities</th>
+                  <td>144,754,222</td>
+                  <th>Sector</th>
+                  <td>Mutual Funds</td>
+                </tr>
+                <tr>
+                  <td colspan="4"><table class="table table-inner">
+                      <tr>
+                        <th><span class="pull-right">Closing Price Graph:</span></th>
+                        <td><select onchange="show_graph(this.value)" class="form-control pull-left">
+                            <option value="">-Select Option-</option>
+                            <option value="EBL1STMF,1,price">1 month</option>
+                            <option value="EBL1STMF,3,price">3 months</option>
+                            <option value="EBL1STMF,6,price">6 months</option>
+                            <option value="EBL1STMF,9,price">9 months</option>
+                            <option value="EBL1STMF,12,price">1 year</option>
+                            <option value="EBL1STMF,24,price">2 years</option>
+                          </select></td>
+                        <th><span class="pull-right">Total Trade Graph:</span></th>
+                        <td><select onchange="show_graph(this.value)" class="form-control pull-left">
+                            <option value="">-Select Option-</option>
+                            <option value="EBL1STMF,1,trd">1 month</option>
+                            <option value="EBL1STMF,3,trd">3 months</option>
+                            <option value="EBL1STMF,6,trd">6 months</option>
+                            <option value="EBL1STMF,9,trd">9 months</option>
+                            <option value="EBL1STMF,12,trd">1 year</option>
+                            <option value="EBL1STMF,24,trd">2 years</option>
+                          </select></td>
+                        <th><span class="pull-right">Total Volume Graph:  </span></th>
+                        <td><select onchange="show_graph(this.value)" class="form-control pull-left">
+                            <option value="">-Select Option-</option>
+                            <option value="EBL1STMF,1,vol">1 month</option>
+                            <option value="EBL1STMF,3,vol">3 months</option>
+                            <option value="EBL1STMF,6,vol">6 months</option>
+                            <option value="EBL1STMF,9,vol">9 months</option>
+                            <option value="EBL1STMF,12,vol">1 year</option>
+                            <option value="EBL1STMF,24,vol">2 years</option>
+                          </select></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+            </div>
+            
+            <!--<div class="ads-block">
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:728px;height:90px"
+                                     data-ad-client="ca-pub-2209070014716943"
+                                     data-ad-slot="7922174918"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>-->
+            
+            <h2 class="BodyHead topBodyHead row">
+              <div class="col-sm-6 pull-left">Last AGM held on: <i></i></div>
+              <div class="col-sm-6 pull-right">For the year ended:
+                Jun 30, 2022              </div>
+            </h2>
+            <div class="table-responsive page-break">
+              <table class="table table-bordered background-white" id="company">
+                <tr class="alt">
+                  <th width="30%">Cash Dividend  </th>
+                  <td width="70%">6% 2022, 13% 2021, 3% 2019, 2% 2018, 2% 2017</td>
+                </tr>
+                <tr>
+                  <th>Bonus Issue (Stock Dividend)</th>
+                  <td>8%RIU 2018, 10%RIU 2017, 9%RIU 2016, 7%RIU 2015, 10%RIU 2013</td>
+                </tr>
+                <tr class="alt">
+                  <th>Right Issue</th>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th>Year End</th>
+                  <td>30-Jun</td>
+                </tr>
+                <tr class="alt">
+                  <th>Reserve &amp; Surplus without OCI (mn)</th>
+                  <td>95.3</td>
+                </tr>
+                <tr>
+                  <th> Other Comprehensive Income (OCI) (mn)                   </th>
+                  <td>0.0</td>
+                </tr>
+              </table>
+            </div>
+                        <h2 class="BodyHead topBodyHead page-break">Interim Financial Performance: <i>2022</i></h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr class="header">
+                  <td width="30%" rowspan="4" align="center" style="vertical-align: middle;">Particulars</td>
+                  <td colspan="6" align="center">Unaudited / Audited</td>
+                </tr>
+                <tr class="header">
+                  <td align="center">Q1</td>
+                  <td align="center">Q2</td>
+                  <td align="center">Half Yearly  </td>
+                  <td align="center">Q3</td>
+                  <td rowspan="3" align="center">9 Months<br>
+                     </td>
+                  <td align="center">Annual</td>
+                </tr>
+                <tr class="header">
+                  <td align="center">Ending on</td>
+                  <td align="center">Ending on</td>
+                  <td rowspan="2" align="center">6 Months<br>
+                    202212</td>
+                  <td align="center">Ending on</td>
+                  <td align="center">Ending on</td>
+                </tr>
+                <tr class="header">
+                  <td align="center">202209</td>
+                  <td align="center">202212</td>
+                  <td align="center"></td>
+                  <td align="center"></td>
+                </tr>
+                <tr>
+                  <td>Turnover/Revenue (mn)</td>
+                  <td align="center">0</td>
+                  <td align="center">0</td>
+                  <td align="center">0                  </td><td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                <tr class="alt">
+                  <td>Profit from continuing operations (mn)</td>
+                  <td align="center">0</td>
+                  <td align="center">0</td>
+                  <td align="center">0</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                <tr>
+                  <td>Profit for the period (mn)</td>
+                  <td align="center">0</td>
+                  <td align="center">0</td>
+                  <td align="center">0</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                <tr class="alt">
+                  <td>Total Comprehensive Income for the period (mn)</td>
+                  <td align="center">0</td>
+                  <td align="center">0</td>
+                  <td align="center">0</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                <tr class="header">
+                  <td colspan="7">Earnings Per Share (EPS)</td>
+                </tr>
+                <tr>
+                  <td>Basic</td>
+                  <td align="center">-0.290</td>
+                  <td align="center">-0.190</td>
+                  <td align="center">-0.480</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                <tr class="alt">
+                  <td>Diluted*</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                <tr class="header">
+                  <td colspan="7">Earnings Per Share (EPS) - continuing operations</td>
+                </tr>
+                <tr>
+                  <td>Basic</td>
+                  <td align="center">-0.290</td>
+                  <td align="center">-0.190</td>
+                  <td align="center">-0.480</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                <tr class="alt">
+                  <td>Diluted*</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                <tr>
+                  <td>Market price per share at period end  </td>
+                                    <td align="center">7.4</td>
+                  <td align="center">7.4</td>
+                  <td align="center">7.4</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+              </table>
+              <span class="footnote">*As per BSEC Directive No. SEC/CMRRCD/2009-193/64, dated September 21, 2010. <br>
+              <font color="#0099FF"><strong> *Notification <br>
+              </strong> The above table, Interim Financial Performance, is now under modification. If any anomalies are found, please inform us. Contact Phone # 1546, 1545, 1542, 1541. </font> </span> </div>
+                        <h2 class="BodyHead topBodyHead">Price Earnings (P/E) Ratio based on latest Un-audited Financial Statements  </h2>
+            <div class="table-responsive page-break">
+              <table class="table table-bordered background-white" id="company">
+                <tr>
+                  <td align="center" width="35%">Particulars</td>
+                  <td align="center">Feb 09, 2023</td><td align="center">Feb 12, 2023</td><td align="center">Feb 13, 2023</td><td align="center">Feb 14, 2023</td><td align="center">Feb 15, 2023</td><td align="center">Feb 16, 2023</td>
+                </tr>
+                <tr class="alt">
+                  <td align="left">Current P/E Ratio using Basic EPS<br>
+                    (Continuing core operations)**</td>
+                  <td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td>
+                </tr>
+                <tr>
+                  <td align="left">Current P/E ratio using Diluted EPS***<br>
+                    (Continuing core operation)</td>
+                  <td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td>
+                </tr>
+              </table>
+            </div>
+                        <h2 class="BodyHead topBodyHead">Price Earnings (P/E) Ratio Based on latest Audited Financial Statements  </h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr>
+                  <td align="center" width="35%">Particulars</td>
+                  <td align="center">Feb 09, 2023</td><td align="center">Feb 12, 2023</td><td align="center">Feb 13, 2023</td><td align="center">Feb 14, 2023</td><td align="center">Feb 15, 2023</td><td align="center">Feb 16, 2023</td>
+                </tr>
+                <tr class="alt">
+                  <td align="left">Current P/E Ratio using Basic EPS<br>
+                    (Continuing core operations)**</td>
+                  <td align="center">38.95</td><td align="center">38.95</td><td align="center">38.95</td><td align="center">38.95</td><td align="center">38.95</td><td align="center">38.95</td>
+                </tr>
+                <tr>
+                  <td align="left">Current P/E ratio using Diluted EPS***<br>
+                    (Continuing core operation)</td>
+                  <td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td>
+                </tr>
+              </table>
+              <span class="footnote">** Usually refers to "<i>Continuing operations</i>".<br>
+              *** Calculated using bonus-adjusted number of shares as per BSEC Directive (not as per IAS 33 or BAS 33).</span>
+              
+            </div>
+            <h2 class="BodyHead topBodyHead page-break">Financial Performance as per Audited Financial Statements as per IFRS/IAS or BFRS/BAS</h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr class="shrink header">
+                  <td align="center" rowspan="3" style="vertical-align: middle;" colspan="2">Year</td>
+                  <td colspan="3" align="center">Earnings per share(EPS)</td>
+                  <td colspan="3" align="center"> EPS - Continuing Operations</td>
+                  <td colspan="3" rowspan="2" align="center">NAV Per Share</td>
+                  <td colspan="3" align="center">Profit/(Loss) and OCI  </td>
+                </tr>
+                <tr class="shrink header">
+                  <td colspan="2" align="center">Basic</td>
+                  <td rowspan="2" align="center">Diluted<br>
+                     </td>
+                  <td colspan="2" align="center">Basic</td>
+                  <td rowspan="2" align="center">Diluted<br>
+                     </td>
+                  <td rowspan="2" align="center">PCO*</td>
+                  <td rowspan="2" align="center">Profit for the year (mn)</td>
+                  <td rowspan="2" align="center">TCI*</td>
+                </tr>
+                <tr class="shrink header">
+                  <td align="center">Original</td>
+                  <td align="center">Restated</td>
+                  <td align="center">Original</td>
+                  <td align="center">Restated</td>
+                  <td align="center">Original</td>
+                  <td align="center">Restated</td>
+                  <td align="center">Diluted<br>
+                     </td>
+                </tr>
+                                <tr class="shrink"> 
+                  <!--<td align="center"><? echo $year;?></td>-->
+                  <td colspan="2" align="center">2018</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">1.04</td>
+                  <td align="center">0.97</td>
+                  <td align="center">-</td>
+                  <td align="center">11.44</td>
+                  <td align="center">10.70</td>
+                  <td align="center">-</td>
+                  <td align="center">140.20</td>
+                  <td align="center">140.20</td>
+                  <td align="center">140.20</td>
+                </tr>
+                                <tr class="shrink alt"> 
+                  <!--<td align="center"><? echo $year;?></td>-->
+                  <td colspan="2" align="center">2019</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">0.29</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">10.80</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">41.53</td>
+                  <td align="center">41.53</td>
+                  <td align="center">41.53</td>
+                </tr>
+                                <tr class="shrink"> 
+                  <!--<td align="center"><? echo $year;?></td>-->
+                  <td colspan="2" align="center">2020</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-1.35</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">9.15</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-194.88</td>
+                  <td align="center">-194.88</td>
+                  <td align="center">-194.88</td>
+                </tr>
+                                <tr class="shrink alt"> 
+                  <!--<td align="center"><? echo $year;?></td>-->
+                  <td colspan="2" align="center">2021</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">2.61</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">11.76</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">377.80</td>
+                  <td align="center">377.80</td>
+                  <td align="center">377.80</td>
+                </tr>
+                                <tr class="shrink"> 
+                  <!--<td align="center"><? echo $year;?></td>-->
+                  <td colspan="2" align="center">2022</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">0.19</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">10.66</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">28.19</td>
+                  <td align="center">28.19</td>
+                  <td align="center">28.19</td>
+                </tr>
+                              </table>
+              <span class="footnote">PCO = Profit from Continuing Operations (mn)<br>
+              TCI = Total Comprehensive Income for the year (mn)</span> </div>
+            <h2 class="BodyHead topBodyHead">Financial Performance... (Continued)</h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr class="header">
+                  <td align="center" rowspan="4" style="vertical-align: middle;" colspan="2">Year</td>
+                  <td colspan="6" align="center">Year end Price Earnings (P/E) ratio</td>
+                  <td rowspan="4" align="center">Dividend in %*</td>
+                  <td rowspan="4" align="center">Dividend Yield in %</td>
+                </tr>
+                <tr class="header">
+                  <td colspan="3" align="center">Earnings per share(EPS)</td>
+                  <td colspan="3" align="center">EPS - Continuing Operations</td>
+                </tr>
+                <tr class="header">
+                  <td colspan="2" align="center">Using Basic EPS</td>
+                  <td rowspan="2" align="center">Using<br>
+                    Diluted EPS<br>
+                     </td>
+                  <td colspan="2" align="center">Using Basic EPS</td>
+                  <td rowspan="2" align="center">Using<br>
+                    Diluted EPS<br>
+                     </td>
+                </tr>
+                <tr class="header">
+                  <td align="center">Original</td>
+                  <td align="center">Restated<br>
+                     </td>
+                  <td align="center">Original</td>
+                  <td align="center">Restated<br>
+                     </td>
+                </tr>
+                                <tr class="shrink">
+                  <td colspan="2" align="center">2018</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">7.24</td>
+                  <td align="center">6.85</td>
+                  <td align="center">-</td>
+                  <td align="center">2.00, 8%RIU</td>
+                  <td align="center">2.67</td>
+                </tr>
+                                <tr class="shrink alt">
+                  <td colspan="2" align="center">2019</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">24.75</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">3.00</td>
+                  <td align="center">4.23</td>
+                </tr>
+                                <tr class="shrink">
+                  <td colspan="2" align="center">2020</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-3.05</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                </tr>
+                                <tr class="shrink alt">
+                  <td colspan="2" align="center">2021</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">3.18</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">13.00</td>
+                  <td align="center">15.66</td>
+                </tr>
+                                <tr class="shrink">
+                  <td colspan="2" align="center">2022</td>                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">39.03</td>
+                  <td align="center">-</td>
+                  <td align="center">-</td>
+                  <td align="center">6.00</td>
+                  <td align="center">7.89</td>
+                </tr>
+                              </table>
+              <span class="footnote"> *B for bonus or stock dividend, otherwise cash.<br>
+              <strong>*Note: </strong>Price Earnings (P/E) Ratio has been calculated as per annual financial statements submitted by the listed securities by adopting uniform income year from July to June in compliance with the provisions of the Finance Act, 2015 and BSEC Directive No. SEC/SRMIC/2011/1240/445 dated April 27, 2016. For the first time adoption of the change in the financial year, listed companies, those year-ended on March, April, July, August, September, October and December, submitted their audited accounts by adding next few months or reducing few months and P/E has been calculated accordingly. </span>
+              <table class="table table-bordered background-white" id="company">
+                <tr>
+                  <th width="30%">Details of Financial Statement</th>
+                  <td><a target="_blank" href="http://www.racebd.com/index.php?menu=FinancialReport&amp;Fund=eb11mf">http://www.racebd.com/index.php?menu=FinancialReport&amp;Fund=eb11mf</a></td>
+                </tr>
+                <tr class="alt">
+                  <th width="30%">Price Sensitive Information</th>
+                  <td><a target="_blank" href="http://www.ebl1stmf.com/">http://www.ebl1stmf.com/</a></td>
+                </tr>
+              </table>
+            </div>
+            <h2 class="BodyHead topBodyHead page-break">Other Information of the Company</h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr>
+                  <td width="26%">Listing Year</td>
+                  <td width="74%">2009</td>
+                </tr>
+                <tr class="alt">
+                  <td>Market Category</td>
+                  <td>A</td>
+                </tr>
+                <tr>
+                  <td>Electronic Share</td>
+                  <td>Y</td>
+                </tr>
+                <tr class="alt">
+                  <td> Share Holding Percentage
+                    [as on Jun 30, 2022 (year ended)]</td>
+                  <td style="padding:0; margin:0;"><table width="100%" border="0" cellpadding="5" cellspacing="0">
+                      <tr>
+                        <td width="27%" align="center" style="border:hidden;">Sponsor/Director:<br>
+                          1.38</td>
+                        <td width="16%" align="center" style="border:hidden;">Govt:<br>
+                          0.00</td>
+                        <td width="20%" align="center" style="border:hidden;">Institute:<br>
+                          63.65</td>
+                        <td width="19%" align="center" style="border:hidden;">Foreign:<br>
+                          0.00</td>
+                        <td width="18%" align="center" style="border:hidden;">Public:<br>
+                          34.97</td>
+                      </tr>
+                    </table></td>
+                </tr>
+                                <tr class="">
+                  <td> Share Holding Percentage
+                    [as on Dec 31, 2022] </td>
+                  <td style="padding:0; margin:0;"><table width="100%" border="0" cellpadding="5" cellspacing="0">
+                      <tr>
+                        <td width="27%" align="center" style="border:hidden;">Sponsor/Director:<br>
+                          1.38</td>
+                        <td width="16%" align="center" style="border:hidden;">Govt:<br>
+                          0.00</td>
+                        <td width="20%" align="center" style="border:hidden;">Institute:<br>
+                          63.79</td>
+                        <td width="19%" align="center" style="border:hidden;">Foreign:<br>
+                          0.00</td>
+                        <td width="18%" align="center" style="border:hidden;">Public:<br>
+                          34.83</td>
+                      </tr>
+                    </table></td>
+                </tr>
+                                <tr class="alt">
+                  <td> Share Holding Percentage
+                    [as on Jan 31, 2023] </td>
+                  <td style="padding:0; margin:0;"><table width="100%" border="0" cellpadding="5" cellspacing="0">
+                      <tr>
+                        <td width="27%" align="center" style="border:hidden;">Sponsor/Director:<br>
+                          1.38</td>
+                        <td width="16%" align="center" style="border:hidden;">Govt:<br>
+                          0.00</td>
+                        <td width="20%" align="center" style="border:hidden;">Institute:<br>
+                          63.80</td>
+                        <td width="19%" align="center" style="border:hidden;">Foreign:<br>
+                          0.00</td>
+                        <td width="18%" align="center" style="border:hidden;">Public:<br>
+                          34.82</td>
+                      </tr>
+                    </table></td>
+                </tr>
+                                <tr>
+                  <td>Remarks</td>
+                  <td>-</td>
+                </tr>
+              </table>
+              <span class="footnote"><strong>Note:</strong> This is information for the concerned that total holdings of Sponsors/Directors of most of the listed securities have changed from the month of June, 2016 than that of earlier reporting mainly due to compliance of the regulation 2(r) of the Dhaka Stock Exchange (Listing) Regulations, 2015 which reads QUOTE Sponsor means any person or institution who subscribes to the initial capital of a company or a mutual fund or a collective investment scheme. UNQUOTE</span> </div>
+            <h2 class="BodyHead topBodyHead">Corporate Performance at a glance  </h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr>
+                  <td colspan="2">Present Operational Status</td>
+                  <td width="65%" align="right">Active</td>
+                </tr>
+                <tr class="header">
+                  <td colspan="3">Present Loan Status as on June 30, 2022</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" width="3%"> </td>
+                  <td width="32%">Short-term loan (mn) </td>
+                  <td align="right">0</td>
+                </tr>
+                <tr class="alt">
+                  <td>Long-term loan (mn) </td>
+                  <td align="right">0</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Latest Dividend Status (%)</td>
+                  <td align="right">6.00 for 2022</td>
+                </tr>
+                <tr class="header">
+                  <td colspan="3">Latest Credit Rating Status</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" width="3%"> </td>
+                  <td width="32%">Short-term</td>
+                  <td align="right"></td>
+                </tr>
+                <tr class="alt">
+                  <td>Long-term</td>
+                  <td align="right"></td>
+                </tr>
+                                <tr class="">
+                  <td colspan="2">OTC/Delisting/Relisting</td>
+                  <td align="right"></td>
+                </tr>
+              </table>
+            </div>
+            <h2 class="BodyHead topBodyHead">Address of the Company</h2>
+            <div class="table-responsive">
+              <table class="table table-bordered background-white" id="company">
+                <tr>
+                  <td width="10%" rowspan="2">Address</td>
+                  <td width="10%">Head Office</td>
+                  <td width="80%">Sky View Henolux Center, Office No: C-1, 1st Floor, 3/1, Purana Paltan, Dhaka-1000</td>
+                </tr>
+                <tr>
+                  <td width="10%">Factory</td>
+                  <td width="80%"></td>
+                </tr>
+                <tr class="alt">
+                  <td colspan="2">Contact Phone</td>
+                  <td>01302-399597, 01309-402782</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Fax</td>
+                  <td>88 02 9361530</td>
+                </tr>
+                <tr class="alt">
+                  <td colspan="2">E-mail</td>
+                  <td>info@racebd.com</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Web Address</td>
+                  <td><a class="ab1" target="_blank" href="http://www.racebd.com"> http://www.racebd.com</a></td>
+                </tr>
+                <tr class="alt">
+                  <td colspan="2">Company Secretary Name</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td colspan="2">Cell No.</td>
+                  <td></td>
+                </tr>
+                <tr class="alt">
+                  <td colspan="2">Telephone No.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td colspan="2">E-mail</td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+            <div class="table-responsive">
+              <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                <tr>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Note:</strong> All dynamic information of this page are only valid for <i>Public</i> and <i>Debt</i> board.<br>
+                    <strong>Disclaimer:</strong> This page is now under updating process. If any anomalies are found , please inform us (phone: +880241040189-200, +8809666702070, Ext- 1546). </td>
+                </tr>
+              </table>
+            </div>
+                      </div></html>
